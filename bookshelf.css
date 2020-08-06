@@ -1,0 +1,66 @@
+.delete_button{
+    border:none;
+    background-color: crimson;
+    color:white;
+    padding:5px 10px;
+}
+
+.delete_button:hover{
+    background-color: white;
+    color: crimson;
+    border:1px solid crimson
+}
+
+/* .delete_button:focus{
+    outline: none;
+} */
+
+
+.alert{
+    padding:14px 28px;
+    width:590px;
+    margin:10px auto;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.success{
+    background-color: #4CAF50;
+}
+
+.success:hover{
+    background-color: #46a049;
+}
+
+.info{
+    background-color: #2196F3;
+}
+
+.info:hover{
+    background: #0b7dda;
+}
+
+.danger{
+    background-color: #f44336;  
+}
+
+.danger:hover{
+    background: #da190b;
+}
+
+.warning{
+    background-color: #ff9800;
+}
+
+.warning:hover{
+    background: #e68a00;
+}
+
+.default{
+    background-color: #e7e7e7; color: black;
+}
+
+.default:hover{
+    background-color: #ddd;
+}

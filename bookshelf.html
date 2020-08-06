@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK LIST</title>
+    <link rel="stylesheet" href="bookshelf.css">
+</head>
+<body>
+    <div style="display:flex;flex-direction:row;justify-content:  center;">
+        <img height=50px width=50px src="bookshelfLogo.jpg" style="margin:15.44px 5px" alt="this is the picture of the bookShelf Logo">
+        <h1 style="font-family: sans-serif;color:rgb(23, 104, 141)">MY BOOK SHELF</h1>
+    </div>
+    <div style="display: flex;flex-direction: column;flex:1;align-items: center;height:594px">
+        <form class="book-adding-form">
+            <label>Author</label><br>
+            <input type="text" id="user_name" style="margin:10px 0px;height:45px;width:600px;padding:0 20px"><br>
+            <label>ISBN</label><br>
+            <input type="text" id="isbn" style="margin:10px 0px;height:45px;width:  600px;padding:0 20px"><br>
+            <label>Book</label><br>
+            <input type="text" id="book_name" style="margin:10px 0px;height:45px;width:600px;padding:0 20px"><br>
+            <button type="submit" class="submit_button" style="border-radius:5px;margin:15px 0px;border:none;color:white;height:45px;width:645px;
+            background-color:rgb(32, 124, 167);font-size:20px">
+            ADD YOUR BOOK TO THE COLLECTION
+            </button>
+        </form>
+        <table class="BookShelf" style="margin:10px;width:642px;border-collapse:collapse;">
+        </table>
+    </div>
+    <script src="bookshelf.js"></script>
+</body>
+</html>
